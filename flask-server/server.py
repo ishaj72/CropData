@@ -39,15 +39,17 @@ def get_tables():
         'Average Cultivation Area (Ha)': average_cultivation_area.values
     })
     
-    # Return the processed data as JSON
-    result = {
+    # Prepare the JSON response
+    response = {
         "final_table": final_table.to_dict(orient="records"),
         "final_table2": final_table2.to_dict(orient="records")
     }
 
-    print("Resulting data structure:", result)  # Debugging statement
+    # Print for debugging
+    print("Resulting data structure:", response)
 
-    return jsonify(result)
+    # Return the JSON response
+    return jsonify(response)
 
 if __name__ == '__main__':
     app.run(debug=True)

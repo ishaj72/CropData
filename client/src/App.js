@@ -8,7 +8,7 @@ function App() {
     const fetchData = async () => {
       try {
         const response = await axios.get('http://localhost:5000/api/tables');
-        console.log('API response:', response.datagit);  // Debugging statement
+        console.log('API response:', response.data);
         setTables(response.data);
       } catch (error) {
         console.error('Error fetching data:', error);
@@ -66,8 +66,7 @@ function App() {
             <tbody>
               {tables.final_table2.map((row, index) => (
                 <tr key={index}>
-                  {/* <td>{row['Crop Name']}</td> */}
-                  <td>{"Hello"}</td>
+                  <td>{row['CropName']}</td>  {/* Use dot notation */}
                   <td>{row['Average Yield (Kg/Ha)']}</td>
                   <td>{row['Average Cultivation Area (Ha)']}</td>
                 </tr>
