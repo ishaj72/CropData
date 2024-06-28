@@ -8,7 +8,7 @@ CORS(app, resources={r"/api/*": {"origins": "*"}})
 @app.route('/api/tables')
 def get_tables():
     # Load the data
-    data = pd.read_csv("E:/MyApps/CropData/flask-server/Dataset/ManufacIndiaAgroDataset.csv")
+    data = pd.read_csv("./CropData/flask-server/Dataset/ManufacIndiaAgroDataset.csv")
     
     # Data cleaning and processing
     data['Crop Production (UOM:t(Tonnes))'] = data['Crop Production (UOM:t(Tonnes))'].fillna(0)
