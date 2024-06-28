@@ -63,7 +63,7 @@ Table 2: Shows the average yield and cultivation area for various crops.<br/>
 
 ## Images
 - Table 1
-<img src="assets\table1.png" alt="addtrains" width="200" height="150">
+<img src="assets\table1.png" alt="table 1" width="200" height="150">
 
--Table 2
-<img src="assets\taable2.png" alt="addtrains" width="200" height="150">
+- Table 2
+<img src="assets\taable2.png" alt="atable 2" width="200" height="150">
