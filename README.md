@@ -66,3 +66,7 @@ Table 2: Shows the average yield and cultivation area for various crops.<br/>
 
 - Table 2
 <img src="assets\taable2.png" alt="atable 2" width="200" height="150">
+
+- React Page
+<img src="assets\crop1.png" alt="atable 2" width="200" height="150">
+<img src="assets\crop2.png" alt="atable 2" width="200" height="150">
