@@ -1,7 +1,6 @@
 # CROP DATA React + Flask
 
 A Web application for analyzing and showing agricultural production data in India.<br/>
-**Note:** The table is getting printed on console but not on screen.
 
 ## Table of Contents
 
